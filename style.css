@@ -1,15 +1,15 @@
 body {
+    background: #0d183a;
+    background: -moz-linear-gradient(top, #0d183a 46%, #114b7a 71%, #001323 100%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #0d183a 46%, #114b7a 71%, #001323 100%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+    background: linear-gradient(to bottom, #0d183a 46%, #114b7a 71%, #001323 100%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d183a', endColorstr='#7db9e8', GradientType=0);
 
-    background-color: #01758e;
-
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjEwMCUiIHgyPSIwJSIgeTI9IjAlIj48c3RvcCBzdG9wLWNvbG9yPSIjMDBhMmM0IiBzdG9wLW9wYWNpdHk9IjEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMwMjQ0NTQiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
-    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%,color-stop(0, rgb(0, 162, 196)),color-stop(1, rgb(2, 68, 84)));
-
-    background-image: -webkit-repeating-linear-gradient(bottom,rgb(0, 165, 200) -3.3%,rgb(2, 68, 84) 100%);
-    background-image: repeating-linear-gradient(to top,rgb(0, 165, 200) -3.3%,rgb(2, 68, 84) 100%);
-    background-image: -ms-repeating-linear-gradient(bottom,rgb(0, 165, 200) -3.3%,rgb(2, 68, 84) 100%);
 }
+
+
 header {
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     display: flex;
     align-items: center;
 }
@@ -20,6 +20,7 @@ section {
     align-items: center;
 }
 header h1{
+    margin-top: 50px;
     font-family: Andele Mono , monospace ;
     font-size: 300%;
     color: white;
@@ -34,6 +35,22 @@ header h1{
     border-radius: 7px;
     padding: 50px 70px 50px 70px;
 }
+
+
+.Разработка_сайта_—__Студия_«БиСтайл» {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(64, 131, 169);
+    text-decoration: underline;
+    line-height: 1.333;
+    text-align: left;
+    position: absolute;
+    left: 1256px;
+    top: 1143.704px;
+    z-index: 9;
+}
+
+
 nav {
     width: 876px;
 }
@@ -43,22 +60,28 @@ nav ul {
     justify-content: space-between;
     align-items: flex-end;
     padding: 0;
+    margin-bottom: 25px;
 }
 
 nav a {
-    color: white;
+    text-transform: uppercase;
+    color: rgb(241, 241, 241);
 }
 nav li{
-font-size: 1.2em;
+    line-height: 1.5;
+    font-size: 16px;
     list-style: none;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+
 }
 nav i {
     color: white;
 }
 .main h1 {
     width: 100%;
-    font-size: 300%;
+    font-size: 24pt;
     color: #0e4d66;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
 
@@ -73,35 +96,45 @@ nav i {
     margin-top: 5px;
 }
 .first {
+    font-size: 14px;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
     font-weight: bold;
     color: #0e4d66;
 }
 table td {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
     color: #0e4d66;
-    font-size: 105%;
+    font-size: 14px;
     padding-bottom: 15px;
     padding-right: 30px;
 }
 
 .second_content h2 {
     color: #0e4d66;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 .third_content h2{
+    font-size: 22px;
     color: #0e4d66;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 .title_content {
+    font-size: 18px;
     font-weight: bold;
     color: #0e4d66;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
 .bottom_content h4 {
-    line-height: 15px;
+    line-height: 2.0em;
+    font-size: 14px;
     color: #0e4d66;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 
 
 footer {
-    width: 880px;
+    width: 900px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -110,7 +143,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-right: 473px;
+    margin-right: 460px;
+    margin-left: 8px;
 }
 .right_footer img {
     width: 30px;
@@ -118,12 +152,19 @@ footer {
     padding-right: 15px;
 }
 .left_footer h2 {
-color: orange;
+    font-size: 24px;
+    font-family: "Arial", sans-serif;
+    color: rgb(242, 176, 28);
+    line-height: 1.25;
+    margin-right: 10px;
 }
 .left_footer h5 {
     color: white;
+
 }
 .right_footer {
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
     display: flex;
     flex-direction: row;
 align-items: flex-end;
@@ -132,6 +173,11 @@ align-items: flex-end;
     width: 130px;
     color: white;
 }
+.right_footer a {
+    color:#4083a9;
+}
+
+
 
 
 
