@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-<section>
+<div class="main">
 <header>
-<h1><img alt="" src="Shape%2072%20copy.png"> БиСтайл</h1>
-</header>
+<img alt="" src="logo.png">
+
 <nav>
     <ul>
         <li><i class="fas fa-desktop"></i><a href="#"> ПОРТФОЛИО</a></li>
@@ -23,8 +23,10 @@
         <li><i class="fab fa-google-plus-g"></i><a href="#"> GOOGLE+</a></li>
     </ul>
 </nav>
+    <div class="main">
+</header>
 
-<div class="main">
+<section>
 <h1>Иванов Сергей Васильевич</h1>
         <div class="first_content">
         <img alt="" src="Слой%203.png">
@@ -83,11 +85,9 @@
             <h4>Умею кататься на велосипеде и играть на гитаре. Люблю путешевствовать и интересных людей.</h4>
         </div>
     </div>
+</section>
 
 
-</div>
-    <hr>
-    <hr>
     <footer>
         <div class="left_footer">
             <h2>8-800-2000-600</h2><h5> мой телефон</h5>
@@ -100,6 +100,6 @@
             </div>
         </div>
     </footer>
-</section>
+</div>
 </body>
 </html>
