@@ -89,6 +89,7 @@
 
 
     <footer>
+        <img class="line" alt="" src="line.png">
         <div class="left_footer">
             <h2>8-800-2000-600</h2><h5> мой телефон</h5>
         </div>
