@@ -23,7 +23,7 @@
         <li><i class="fab fa-google-plus-g"></i><a href="#"> GOOGLE+</a></li>
     </ul>
 </nav>
-    <div class="main">
+
 </header>
 
 <section>
